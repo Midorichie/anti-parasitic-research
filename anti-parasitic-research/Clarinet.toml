@@ -1,0 +1,25 @@
+[project]
+name = "anti-parasitic-research"
+description = "Smart contract-based funding platform for anti-parasitic research"
+authors = []
+telemetry = false
+requirements = []
+
+[contracts.parasitic-research-funding]
+path = "contracts/parasitic-research-funding.clar"
+clarity_version = 1
+epoch = 2.1
+
+[contracts.sip-010-trait]
+path = "contracts/sip-010-trait.clar"
+clarity_version = 1
+epoch = 2.1
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = true
+trusted_sender = false
+trusted_caller = false
+callee_filter = false

@@ -1,0 +1,27 @@
+[network]
+name = "simnet"
+deployment_fee_rate = 10
+
+[accounts.deployer]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon"
+balance = 1_000_000_000_000_000
+
+[accounts.wallet_1]
+mnemonic = "craft invite stick table blur highway gate mechanic journey put defense unlock"
+balance = 1_000_000_000_000_000
+
+[accounts.wallet_2]
+mnemonic = "music box convince skin jump drive deck half used boring have elegant"
+balance = 1_000_000_000_000_000
+
+[accounts.wallet_3]
+mnemonic = "coffee hold script hand echo romance fun damage never drip yard phone"
+balance = 1_000_000_000_000_000
+
+[simnet]
+disable_bitcoin_explorer = false
+disable_stacks_explorer = false
+disable_stacks_api = false
+mine_min_interval_ms = 5_000
+mine_max_interval_ms = 10_000
+reward_slot_holders = true
